@@ -1,18 +1,18 @@
 # Restaurant CV Insights
 
-Computer vision pipeline that analyzes restaurant CCTV footage from a single fixed entrance camera and produces operational metrics: entrance in/out counts, waiting area occupancy and dwell time, table occupancy, and a staff exclusion zone at the host stand. Built as a technical assessment for a Computer Vision Engineer role.
+Computer vision pipeline that analyzes restaurant CCTV footage from a single fixed entrance camera and produces operational metrics: entrance in/out counts, waiting area occupancy and dwell time, table occupancy, and a staff exclusion zone at the host stand.
 
-Demo video: [add your Drive or YouTube link here]
+Demo video used: https://youtu.be/FsKal7K2zJY?si=QTnriBd3hFXkOhuD
 
 ## Sample frame and prediction output
 
 Reference frame (used to label zones):
 
-![Sample frame](docs/images/sample_frame.jpg)
+<img width="1920" height="1080" alt="sample_frame" src="https://github.com/user-attachments/assets/2ca89d95-c650-485e-86ad-a96ea7ad4a00" />
 
 Annotated prediction output:
 
-![Prediction output](docs/images/prediction_sample.jpg)
+<img width="1512" height="866" alt="labelled_reference" src="https://github.com/user-attachments/assets/b34faaf3-97a8-4167-b626-1c53867e467b" />
 
 ## What this does
 
@@ -47,7 +47,9 @@ restaurant-cv-insights/
 ├── docs/
 │   ├── limitations.md          # assumptions, failure modes, mitigations for what's implemented
 │   ├── proposed_solutions.md   # solutions not implemented, required data, recommended approach
-│   └── images/                 # sample frame + prediction screenshots
+├── outputs/
+│   └── metrics.csv             # results of detected objects per frame
+│   └── sample_frame.jpg             # sample frame from video used
 ├── configs/
 │   └── zones.json              # hand-labeled zone polygons for this camera
 ├── scripts/
