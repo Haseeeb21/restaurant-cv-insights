@@ -49,7 +49,7 @@ restaurant-cv-insights/
 │   ├── proposed_solutions.md   # solutions not implemented, required data, recommended approach
 ├── outputs/
 │   └── metrics.csv             # results of detected objects per frame
-│   └── sample_frame.jpg             # sample frame from video used
+│   └── sample_frame.jpg        # sample frame from video used
 ├── configs/
 │   └── zones.json              # hand-labeled zone polygons for this camera
 ├── scripts/
