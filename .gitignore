@@ -13,5 +13,4 @@ venv/
 outputs/*.mp4
 outputs/.*
 src/ocr_timestamp.py
-docs/proposed_solutions.md
 .DS_Store
