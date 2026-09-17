@@ -1,0 +1,8 @@
+ultralytics>=8.3.0        
+supervision>=0.24.0       # tracking (ByteTrack), polygon zones, annotators
+opencv-python>=4.9.0
+numpy>=1.26.0
+pandas>=2.2.0
+matplotlib>=3.8.0
+mlflow>=2.14.0
+shapely>=2.0.0           

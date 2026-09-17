@@ -1,0 +1,14 @@
+*.pt
+*.onnx
+*.engine
+*.mp4
+*.avi
+*.mov
+mlruns/
+mlartifacts/
+__pycache__/
+*.pyc
+.venv/
+venv/
+outputs/*.mp4
+src/ocr_timestamp.py
