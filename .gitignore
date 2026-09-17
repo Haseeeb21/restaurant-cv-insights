@@ -12,3 +12,4 @@ __pycache__/
 venv/
 outputs/*.mp4
 src/ocr_timestamp.py
+docs/proposed_solutions.md
